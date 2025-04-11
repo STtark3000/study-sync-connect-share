@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
@@ -13,7 +12,7 @@ import {
   SelectTrigger, 
   SelectValue 
 } from '@/components/ui/select';
-import { Calendar, Edit, GraduationCap, Save, User, Users, FileText } from 'lucide-react';
+import { Calendar, Edit, GraduationCap, Save, User, Users, FileText, Plus } from 'lucide-react';
 
 const Profile = () => {
   const [isEditing, setIsEditing] = React.useState(false);
